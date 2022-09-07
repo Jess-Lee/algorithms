@@ -8,8 +8,6 @@ If you call bubble_sort(arr,True), you can see the process of the sort
 Default is simulation = False
 
 """
-
-
 def bubble_sort(arr, simulation=False):
     def swap(i, j):
         arr[i], arr[j] = arr[j], arr[i]
@@ -33,3 +31,5 @@ def bubble_sort(arr, simulation=False):
                     print("iteration",iteration,":",*arr)
                     
     return arr
+
+
